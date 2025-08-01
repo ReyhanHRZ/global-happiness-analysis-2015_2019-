@@ -1,26 +1,26 @@
 global-happiness-analysis/
-|
-├── data/                      # Raw & processed data
-│   ├── 2015.csv
-│   ├── 2016.csv
-│   ├── 2017.csv
-│   ├── 2018.csv
-│   ├── 2019.csv
-│   └── concat_updated.xlsx    # Cleaned and merged dataset
-│
-├── notebooks/                # Jupyter notebooks for analysis
-│   ├── 01_EDA.ipynb          # Exploratory Data Analysis
-│   └── 02_Regression_Model.ipynb  # Linear Regression modeling
-│
-├── powerbi/                  # Replaced by Tableau dashboard
-│   └── happiness_dashboard.twb
-│
-├── outputs/
-│   ├── figures/              # Exported graphs and plots
-│   └── reports/              # Additional visual assets
-│
-├── README.md                 # Project overview (this file)
-└── requirements.txt          # Python dependencies
+
+    data/                      # Raw & processed data
+       2015.csv
+       2016.csv
+       2017.csv
+       2018.csv
+       2019.csv
+     concat_updated.xlsx    # Cleaned and merged dataset
+   notebooks/                # Jupyter notebooks for analysis
+     01_EDA.ipynb          # Exploratory Data Analysis
+     02_Regression_Model.ipynb  # Linear Regression modeling
+
+   powerbi/                  # Replaced by Tableau dashboard
+     happiness_dashboard.twb
+  
+   outputs/
+     figures/              # Exported graphs and plots
+     reports/              # Additional visual assets
+
+  README.md                 # Project overview (this file)
+
+    requirements.txt          # Python dependencies
 
 
 
